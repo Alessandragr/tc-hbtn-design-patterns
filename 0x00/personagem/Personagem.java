@@ -11,8 +11,8 @@ abstract class Personagem {
         this.nome = nome;
         this.tipoPersonagem = tipoPersonagem;
         this.inteligencia = inteligencia;
-        this.vigor = vigor;
         this.forca = forca;
+        this.vigor = vigor;
         this.resistencia = resistencia;
         this.destreza = destreza;
     }

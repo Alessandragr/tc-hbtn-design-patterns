@@ -1,6 +1,6 @@
 public class Ladrao extends Personagem{
 
-    public Ladrao(String nome, int inteligencia, int vigor, int forca, int resistencia, int destreza) {
+    public Ladrao(String nome, int inteligencia, int forca, int vigor, int resistencia, int destreza) {
         super(nome, TipoPersonagem.LADRAO, inteligencia, vigor, forca, resistencia, destreza);
 
         if (forca < inteligencia && forca < destreza) {

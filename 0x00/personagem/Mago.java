@@ -1,5 +1,5 @@
 public class Mago extends Personagem {
-    public Mago(String nome, int inteligencia, int vigor, int forca, int resistencia, int destreza) {
+    public Mago(String nome, int inteligencia, int forca, int vigor,  int resistencia, int destreza) {
         super(nome, TipoPersonagem.MAGO, inteligencia, vigor, forca, resistencia, destreza);
         if (inteligencia < forca && inteligencia < destreza) {
             throw new IllegalArgumentException("Atributos invalidos para MAGO");
