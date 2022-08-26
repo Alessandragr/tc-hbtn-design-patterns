@@ -17,7 +17,7 @@ abstract class Personagem {
         this.destreza = destreza;
     }
 
-    public double getDanoAtaque() {
+    abstract double getDanoAtaque() {
         return this.forca;
     }
 
