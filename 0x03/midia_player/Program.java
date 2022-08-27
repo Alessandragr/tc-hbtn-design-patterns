@@ -3,7 +3,6 @@ public class Program {
         AudioPlayer audioPlayer = new AudioPlayer();
         audioPlayer.reproduzir(TipoMedia.MP3, "The Weeknd - Blinding Lights.mp3");
 
-        System.out.println();
 
         VideoMediaPlayer videoMediaPlayer = new VideoMediaPlayer();
         videoMediaPlayer.reproduzirMp4("Uncharted.mp4");
